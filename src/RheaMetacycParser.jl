@@ -4,11 +4,11 @@ using COBREXA
 using ReadableRegex
 using DocStringExtensions
 
-include("src/types.jl")
-include("src/RheaReaction.jl")
-include("src/CHEBIMetabolite.jl") 
-include("src/MetaCycRheaMapping.jl")
-include("src/MetaCycPathways.jl")
+include("types.jl")
+include("RheaReaction.jl")
+include("CHEBIMetabolite.jl") 
+include("MetaCycRheaMapping.jl")
+include("MetaCycPathways.jl")
 
 export RheaReaction, CHEBIMetabolite
 
